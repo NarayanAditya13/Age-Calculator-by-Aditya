@@ -1,0 +1,64 @@
+body {
+    font-family: 'SF Pro Text', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    text-align: center;
+    background-color: #1c1c1e;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="date"] {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'SF Pro Text', sans-serif;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #007aff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005ec2;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
